@@ -106,4 +106,13 @@ padding: 0  !important;
 
 .white {
   background: #fff !important;
+  ul {
+    list-style: none;
+    li {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
 }
