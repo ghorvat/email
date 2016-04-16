@@ -1,0 +1,109 @@
+$coachhirePurple: #362c6e;
+
+.no-padding {
+padding: 0  !important;
+}
+
+.coachhire {
+  .menu-item {
+    a {
+      h4 {
+        margin: 0;
+        font-size: 1em;
+      }
+    }
+    padding: 0 !important;
+  }
+}
+
+.coachhire-header {
+  color: $coachhirePurple;
+ .container {
+   background: #fff;
+ }
+  p,h4 {
+    color:$coachhirePurple;
+  }
+}
+
+.coachhire-number {
+  font-size: 31px;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+.beneath-header {
+  background: $coachhirePurple;
+  font-family: 'Montserrat', sans-serif;
+  p {
+    margin: 0 !important;
+    color: #fff;
+  }
+  padding: 20px;
+}
+
+.icons {
+  img {
+    //width: 40px;
+  }
+  width: 40px;
+  //padding: 0 !important;
+}
+
+.socials {
+  list-style: none;
+  display: table-cell;
+  float: right;
+  margin: 0;
+  li {
+    float: left;
+    width: 40px;
+  }
+}
+
+.v-m {
+  vertical-align: middle;
+}
+
+.footer {
+  background: #3d3f45 !important;
+  p {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0 !important;
+  }
+}
+
+.no-paddingtopbot {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.padding-footer {
+  padding: 20px !important;
+}
+
+.body-content {
+  h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .row {
+    background: #f5f5f5;
+  }
+  .pu {
+    color: $coachhirePurple;
+  }
+}
+
+.white {
+  background: #fff !important;
+}
