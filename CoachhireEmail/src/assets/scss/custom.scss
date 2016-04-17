@@ -1,10 +1,9 @@
 $coachhirePurple: #362c6e;
-
 .no-padding {
-padding: 0  !important;
+padding: 0;
 }
 .no-padding-bottom {
-  padding-bottom: 0 !important;
+  padding-bottom: 0;
 }
 
 .coachhire {
@@ -15,7 +14,7 @@ padding: 0  !important;
         font-size: 1em;
       }
     }
-    padding: 0 !important;
+    padding: 0 ;
   }
 }
 
@@ -41,7 +40,7 @@ padding: 0  !important;
   background: $coachhirePurple;
   font-family: 'Montserrat', sans-serif;
   p {
-    margin: 0 !important;
+    margin: 0 ;
     color: #fff;
   }
   padding: 20px;
@@ -52,7 +51,7 @@ padding: 0  !important;
     //width: 40px;
   }
   width: 40px;
-  //padding: 0 !important;
+  //padding: 0 ;
 }
 
 .socials {
@@ -71,23 +70,20 @@ padding: 0  !important;
 }
 
 .footer {
-  background: #3d3f45 !important;
+  background: #3d3f45;
   p {
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    margin: 0 !important;
+    margin: 0;
   }
 }
 
 .no-paddingtopbot {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.padding-footer {
-  padding: 20px !important;
-}
 
 .body-content {
   h5 {
@@ -105,36 +101,12 @@ padding: 0  !important;
   .pu {
     color: $coachhirePurple;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
-  }
-
-  .custom-tables {
-    .heading {
-      font-family: 'Lato', sans-serif;
-      font-weight: 400;
-      color: #46484e;
-      margin-bottom: 0;
-    }
-    .details {
-      font-family: 'Lato', sans-serif;
-      font-weight: 700;
-      color: #46484e;
-      margin-bottom: 0;
-
-    }
-    .columns {
-      padding-bottom: 20px;
-    }
-  }
-
-
-  .bus-images {
-    margin: 20px 0;
+    font-weight: 900;
   }
 }
 
 .white {
-  background: #fff !important;
+  background: #fff;
   ul {
     list-style: none;
     li {
@@ -148,7 +120,7 @@ padding: 0  !important;
 
 .quote-tables {
 .columns {
-  padding-bottom: 2px !important;
+  padding-bottom: 2px;
 }
 
 
@@ -156,7 +128,6 @@ padding: 0  !important;
 
 .total-price {
   font-family: 'Lato', sans-serif;
-  margin:0;
   strong {
     font-size: 16px;
   }
@@ -164,15 +135,14 @@ padding: 0  !important;
 .right-box {
   background: $coachhirePurple;
   .columns {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
 .price-per-person {
   color: #fff;
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
   span {
     font-size: 14px;
     font-family: 'Lato', sans-serif;
@@ -183,7 +153,6 @@ padding: 0  !important;
 .bags {
   img {
     width: 35px;
-    margin-bottom: 12px;
   }
 }
 
@@ -206,8 +175,100 @@ padding: 0  !important;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   color: #46484e;
+  margin-bottom: 30px;
 }
 
 .zero {
-  margin: 0 !important;
+  margin: 0;
+}
+
+.right-box-vehicles {
+  background: $coachhirePurple;
+  .columns {
+    padding-left: 20px;
+    padding-right: 20px;
+    .price-per-person {
+      font-size: 16px;
+      span {
+        font-size: 13px;
+      }
+    }
+  }
+  .book {
+    h6 {
+      font-size: 13px;
+    }
+  }
+}
+
+.vehicles{
+  .columns {
+    //padding-left:16px ;
+  }
+}
+
+.items-images {
+  padding: 0;
+  li {
+    width: 30px;
+  }
+}
+
+.availabilities {
+  .menu-item {
+    width: 30px;
+    padding: 0 ;
+    a {
+      img {
+        width: 30px;
+      }
+    }
+
+  }
+}
+
+.details {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700 !important;
+  color: #46484e;
+  margin-bottom: 20px;
+
+}
+
+.heading {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #46484e;
+  margin-bottom: 20px;
+}
+
+.quote {
+  .heading {
+    margin-bottom: 0;
+  }
+}
+
+.fon {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.no-margin {
+  margin-bottom: 0;
+}
+
+.divider {
+  border-bottom: 1px solid #46484e;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.dark-grey {
+  background: #46484e;
+}
+
+.color--white {
+  color: #fff;
 }
