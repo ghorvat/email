@@ -92,7 +92,7 @@ padding: 0;
   }
   p {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
   }
   .grey {
@@ -135,8 +135,8 @@ padding: 0;
 .right-box {
   background: $coachhirePurple;
   .columns {
-    padding-left: 20px;
-    padding-right: 20px;
+    //padding-left: 20px;
+    //padding-right: 20px;
   }
 }
 
@@ -175,7 +175,6 @@ padding: 0;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   color: #46484e;
-  margin-bottom: 30px;
 }
 
 .zero {
@@ -283,4 +282,58 @@ padding: 0;
     }
   }
   margin-bottom: 5px;
+}
+
+.gu {
+  color: #46484e;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.coach-img {
+  img {
+    width: 26px;
+  }
+}
+
+.text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+}
+
+.lato-regular {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  color: #fff;
+}
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+.text-center-mobile {
+  text-align: center !important;
+}
+  .center-a {
+    margin:0 auto !important;
+    display: block !important;
+  }
+
+  .center-w {
+    width: 50% !important;
+  }
+  .show-mobile {
+    display: block !important;
+  }
+
+  .hidden-mobile {
+    display: none !important;
+  }
+  .full-width-mobile {
+    width: 100% !important;
+  }
+  .first-icons {
+    margin-left: 44px !important;
+  }
 }
