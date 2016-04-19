@@ -1586,6 +1586,11 @@ body.outlook p {
   font-size: 14px;
   color: #fff; }
 
+.text-lato-light {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #fff; }
+
 .lato-regular {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -1608,4 +1613,6 @@ body.outlook p {
   .full-width-mobile {
     width: 100% !important; }
   .first-icons {
-    margin-left: 44px !important; } }
+    margin-left: 44px !important; }
+  .font-mobile-footer {
+    font-size: 12px !important; } }
