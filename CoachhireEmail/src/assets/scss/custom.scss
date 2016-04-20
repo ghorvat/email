@@ -89,6 +89,8 @@ $coachhirePurple: #362c6e;
   h5 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+    color: #32343a;
+    color: #32343a;
   }
   p {
     font-family: 'Lato', sans-serif;
@@ -314,7 +316,6 @@ $coachhirePurple: #362c6e;
   font-weight: 400;
   font-size: 18px;
   color: #fff;
-  color: #fff;
 }
 
 @media only screen and (max-width: #{$global-breakpoint}) {
@@ -345,4 +346,35 @@ $coachhirePurple: #362c6e;
   .font-mobile-footer {
     font-size: 12px !important;
   }
+}
+
+.unordered-list {
+
+  li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #32343a;
+    font-size: 12px;
+    margin-bottom: 30px;
+
+  }
+}
+
+.ordered-list {
+
+  li {
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #32343a;
+    strong{
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+    }
+  }
+}
+
+strong {
+  color: #32343a;
 }

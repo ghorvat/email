@@ -1440,7 +1440,9 @@ body.outlook p {
 
 .body-content h5 {
   font-family: 'Lato', sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #32343a;
+  color: #32343a; }
 
 .body-content p {
   font-family: 'Lato', sans-serif;
@@ -1595,7 +1597,6 @@ body.outlook p {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: #fff;
   color: #fff; }
 
 @media only screen and (max-width: 670px) {
@@ -1616,3 +1617,23 @@ body.outlook p {
     margin-left: 44px !important; }
   .font-mobile-footer {
     font-size: 12px !important; } }
+
+.unordered-list li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #32343a;
+  font-size: 12px;
+  margin-bottom: 30px; }
+
+.ordered-list li {
+  font-size: 14px;
+  margin-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #32343a; }
+  .ordered-list li strong {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; }
+
+strong {
+  color: #32343a; }
